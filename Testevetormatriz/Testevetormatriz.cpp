@@ -43,7 +43,7 @@ int main()
 	cout << "Maior valor encontrado entre a DP e a DS: " << endl << maiorValorEmMatriz(matriz, ESCOPO_BUSCA_MATRIZ_DIAGONAIS) << endl;
 	cout << "Menor valor na diagonal principal da matriz: " << endl << menorValorEmMatriz(matriz, ESCOPO_BUSCA_MATRIZ_DIAGONALPRINCIPAL) << endl;
 	cout << "Menor valor na diagonal secundária da matriz: " << endl << menorValorEmMatriz(matriz, ESCOPO_BUSCA_MATRIZ_DIAGONALSECUNDARIA) << endl;
-	cout << "Menor valor encontrado entre a DP e a DS: " << endl << menorValorEmMatriz(matriz, ESCOPO_BUSCA_MATRIZ_DIAGONAIS);
+	cout << "Menor valor encontrado entre a DP e a DS: " << endl << menorValorEmMatriz(matriz, ESCOPO_BUSCA_MATRIZ_DIAGONAIS)<<endl;
 	
     return 0;
 }
